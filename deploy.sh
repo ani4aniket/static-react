@@ -7,7 +7,8 @@ cd ../gatsby-site
 npm install
 npm run build
 
-# rm -rf ../gatsby-site/public/cra
+
+rm -rf ../cra-site/public/gatsby
 mv public ../cra-site/public/gatsby
 cd ../cra-site
 cp ../_redirects public/

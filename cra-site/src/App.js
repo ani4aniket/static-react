@@ -7,14 +7,25 @@ function App() {
   return (
     <BrowserRouter>
       <Route
+        path="/boring-stuff"
+        render={() => (
+          <div>
+            <div>
+              <Link to="/">go to cool stuff</Link>
+            </div>
+            <div>
+              <a href="/gatsby">go to gatsby part</a>
+            </div>
+          </div>
+        )}
+      />
+      <Route
         path="/"
+        exact
         render={() => (
           <div className="App">
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" />
-              <p>
-                Edit <code>src/App.js</code> and save to reload.
-              </p>
               <a
                 className="App-link"
                 href="https://reactjs.org"
@@ -25,19 +36,6 @@ function App() {
               </a>
               <Link to="/boring-stuff">go to boring page</Link>
             </header>
-          </div>
-        )}
-      />
-      <Route
-        path="/boring-stuff"
-        render={() => (
-          <div>
-            <div>
-              <Link to="/">go to cool stuff</Link>
-            </div>
-            <div>
-              <a href="/gatsby">go to gatsby part</a>
-            </div>
           </div>
         )}
       />

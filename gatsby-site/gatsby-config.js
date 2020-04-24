@@ -4,6 +4,7 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
+  pathPrefix: `/gatsby`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -20,7 +21,7 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/gatsby`,
+        // start_url: `/gatsby`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
