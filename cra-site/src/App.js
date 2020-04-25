@@ -34,7 +34,9 @@ function App() {
               >
                 Learn React
               </a>
-              <Link to="/boring-stuff">go to boring page</Link>
+              <a className="App-link" href="/gatsby">
+                Go to Gatsby app
+              </a>
             </header>
           </div>
         )}
