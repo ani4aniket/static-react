@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <Route
+      {/* <Route
         path="/boring-stuff"
         render={() => (
           <div>
@@ -18,7 +18,7 @@ function App() {
             </div>
           </div>
         )}
-      />
+      /> */}
       <Route
         path="/"
         exact

@@ -4,6 +4,7 @@ cd cra-site
 npm install
 npm run build
 cd ../gatsby-site
+npm run clean
 npm install
 npm run build
 
