@@ -1,10 +1,10 @@
 #!/bin/bash
 
 cd cra-site
-# npm install
+npm install
 # npm run build
 cd ../gatsby-site
-# npm install
+npm install
 npm run build
 
 rm -rf ../cra-site/public/gatsby
